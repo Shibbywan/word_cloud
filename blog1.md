@@ -49,4 +49,8 @@ Then I sudo-ran the next command and it worked. Although I still could not impor
 
 ![](http://i.imgur.com/DshauvC.png)
 
-I searched through the issues on the repository and found [this](
+I searched through the issues on the repository and found [this](https://github.com/amueller/word_cloud/issues/125). I read through it and discovered iPython, which is an interactive python shell. I installed iPython, and attempted to import wordcloud in it as seen in the following picture:
+
+![](http://i.imgur.com/69KXHRw.png)
+
+I learned that I was having the exact same problem as the user in the previous issue. pip seemed to not actually build word cloud correctly, and I was importing from the downloaded directory. I changed directory and was able to import the library using ipython.

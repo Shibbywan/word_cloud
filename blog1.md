@@ -54,3 +54,19 @@ I searched through the issues on the repository and found [this](https://github.
 ![](http://i.imgur.com/69KXHRw.png)
 
 I learned that I was having the exact same problem as the user in the previous issue. pip seemed to not actually build word cloud correctly, and I was importing from the downloaded directory. I changed directory and was able to import the library using ipython.
+
+## Artifact 2: Example + Console output
+
+I tested the program using the example that was included in the repository. The example used the US constitution and created a word cloud from it. I got the following output:
+
+![](http://i.imgur.com/hWtNq4u.png)
+
+I wanted to test the program on something different so I copied the first few paragraphs of Patrick McKenzie's [Don't Call Yourself a Programmer](http://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/) into a text file and ran the program on it. I got the following output:
+
+![](http://i.imgur.com/iuHrs2G.png)
+
+## Notes
+
+The bug with Pillow seems to be quite big and I didn't see any mention of it in the install instructions, it may be a good question to ask later. Also, I learned that there is an issue with PIL (Python Imaging Library) and Pillow. Pillow is the successor of PIL and they actually interfere with each other if they are both installed. I feel like in my earlier attempts to install the software, I may have been hindered by this. 
+
+

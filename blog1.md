@@ -1,7 +1,7 @@
 # Assignment 1 
 Kevin Saforo
 
-## Overview
+## Introduction
 
 The open source project I chose is called **Word Cloud** which is a python program which generates a visual representation of words based on frequency. The creator's name is Andy, he has a blog which he titles "Andy's Computer Vision and Machine Learning Blog". 
 

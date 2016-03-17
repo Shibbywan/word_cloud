@@ -57,11 +57,11 @@ I learned that I was having the exact same problem as the user in the previous i
 
 ## Artifact 2: Example + Console output
 
-I tested the program using the example that was included in the repository. The example used the US constitution and created a word cloud from it. I got the following output:
+I ran the program using the example that was included in the repository. The example used the US constitution and created a word cloud from it. I got the following output:
 
 ![](http://i.imgur.com/hWtNq4u.png)
 
-I wanted to test the program on something different so I copied the first few paragraphs of Patrick McKenzie's [Don't Call Yourself a Programmer](http://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/) into a text file and ran the program on it. I got the following output:
+I wanted to run the program on something different so I copied the first few paragraphs of Patrick McKenzie's [Don't Call Yourself a Programmer](http://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/) into a text file and ran the program on it. I got the following output:
 
 ![](http://i.imgur.com/iuHrs2G.png)
 
